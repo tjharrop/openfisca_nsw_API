@@ -25,7 +25,8 @@ setup(
         'OpenFisca-Core >= 25.3, < 35',
         'OpenFisca_nsw_base',
         'OpenFisca_nsw_rules_kids_vouchers',
-        'OpenFisca_nsw_ess_nabers'
+        'OpenFisca_nsw_ess_nabers',
+        'OpenFisca_nsw_community_gaming'
 
         ],
     extras_require = {
