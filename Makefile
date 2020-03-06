@@ -43,6 +43,6 @@ api: build
 	python -m pip install ../openfisca_nsw_ess_nabers
 	python -m pip install ../openfisca_nsw_community_gaming
 	pip install -e .
-	openfisca serve --country-package openfisca_nsw_base --extensions openfisca_nsw_ess_nabers openfisca-nsw-rules-kids-vouchers openfisca_nsw_community_gaming openfisca_nsw_API
+	openfisca serve --workers=1 --country-package openfisca_nsw_base --extensions openfisca_nsw_ess_nabers openfisca-nsw-rules-kids-vouchers openfisca_nsw_community_gaming openfisca_nsw_API
 
 
