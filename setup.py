@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="openfisca-nsw-api",
+    name="openfisca_nsw_api",
     version="1.3.2",
     author="OpenFisca Team",
     author_email = 'sara.falamaki@customerservice.nsw.gov.au',
@@ -16,13 +16,12 @@ setup(
     description="An OpenFisca extension that adds some variables to an already-existing tax and benefit system",
     keywords = 'benefit microsimulation social tax',
     license="http://www.fsf.org/licensing/licenses/agpl-3.0.html",
-    url = "https://github.com/Openfisca-NSW/openfisca-nsw-api",
+    url = "https://github.com/Openfisca-NSW/openfisca_nsw_api",
     include_package_data = True,  # Will read MANIFEST.in
     data_files = [
-        ("share/openfisca/openfisca-nsw-api", ["CHANGELOG.md", "LICENSE", "README.md"]),
+        ("share/openfisca/openfisca_nsw_api", ["CHANGELOG.md", "LICENSE", "README.md"]),
         ],
     install_requires = [
-        'OpenFisca-Core >= 25.3, < 35',
         'OpenFisca_nsw_base',
         'OpenFisca_nsw_rules_kids_vouchers',
         'OpenFisca_nsw_ess_nabers',
