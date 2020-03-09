@@ -7,7 +7,7 @@ This is a template for making extensions in NSW.
 You'll need to rename the openfisca_nsw_extension_template directory to the name
 of your extension. Also edit the README.md & setup.py files, and replace $EXT_NAME with the 
 name of your extension. Replace $SHORT_NAME with a shortened name for it, for example
-openfisca-nsw-rules-kids-vouchers is shortened to "kids". This just makes it easier to
+openfisca_nsw_rules_kids_vouchers is shortened to "kids". This just makes it easier to
 switch to the virtual env.
 
 
